@@ -72,9 +72,8 @@ const Technologies = () => {
         >
           <SiHtml5 className="text-7xl text-orange-500" />
         </motion.div>
-        {/* Add R programming icon */}
         <motion.div
-          variants={iconVariants(2.5)}
+          variants={iconVariants(3)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
