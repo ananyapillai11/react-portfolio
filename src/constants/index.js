@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/3.png";
 import project4 from "../assets/projects/5.jpeg";
 import project5 from "../assets/projects/project-3.jpg";
-import project6 from "../assets/projects/6.jpg";
+import project6 from "../assets/projects/6.png";
 
 
 export const HERO_CONTENT = `I am a driven and innovative professional with expertise in frontend development and a strong interest in data science and AI & ML. With experience in crafting dynamic web applications using React, HTML, CSS, and JavaScript, I have also applied my skills to data-driven projects involving machine learning and predictive modeling. My ability to design and implement algorithms, work with ML tools, and analyze large datasets has enabled me to create impactful solutions. I am passionate about integrating cutting-edge AI techniques, including generative models, into practical applications. My goal is to contribute to innovative projects that leverage AI to drive meaningful business outcomes.`;
@@ -62,11 +62,11 @@ export const PROJECTS = [
     technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "XGBoost", "Matplotlib", "Seaborn"],
   },
   {
-    title: "Online Voting System",
+    title: "Face Generation using GANs",
     image: project6,
     description:
-      "An interactive and secure Online Voting System designed with client-server architecture using Python. The system features real-time voting management, multi-client support, and a user-friendly GUI built with Tkinter. It ensures vote validation, prevents invalid or duplicate votes, and dynamically calculates results, making the voting process efficient and transparent.",
-    technologies: ["Python", "Socket Programming", "Tkinter", "Threading", "Pillow (PIL)"],
+      "A project utilizing Generative Adversarial Networks (GANs) to generate realistic human face images. Built with TensorFlow and trained on the CelebA dataset, it features a Generator that creates images from random noise and a Discriminator that classifies images as real or fake. Includes data preprocessing, GAN architecture implementation, and visualization of generated faces during training.",
+    technologies: ["Python", "TensorFlow", "Keras", "NumPy", "Matplotlib"],
   },
 ];
 
